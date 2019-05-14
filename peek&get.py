@@ -47,6 +47,6 @@ for url in tqdm.tqdm(imagesUrl):
     except:
         errors.append(url)
         counter +=1
-print (str(len(errors)),"errors")
+print (str(len(errors)),"errors") #you can try to run again the requests.get on the errors, get their index on the url list etc...
 
     
